@@ -1,6 +1,6 @@
 # SD3203 Tenologi Basis Data
 
-> **Nama : ASRIZAL** <br> **NIM : 121450010** <br> **Kelas : RC**
+> **Nama : ASRIZAL** <br> **NIM : 121450010** <br> **Kelas : RB**
 
 # Tugas
 1. [Materialized views & Transactions](/tugas/tugas1)
