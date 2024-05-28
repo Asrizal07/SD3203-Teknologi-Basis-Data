@@ -413,9 +413,9 @@ HDF5: Sangat efisien di semua skala, menunjukkan waktu penggunaan yang sangat re
 
 Dari analisis ini, HDF5 muncul sebagai metode penyimpanan paling efisien, terutama saat menangani jumlah gambar yang besar. LMDB juga menunjukkan efisiensi yang baik, terutama bila dibandingkan dengan metode disk. Disk kurang efisien untuk skala besar dan sebaiknya dihindari untuk jumlah gambar yang sangat besar.
 
-![Output1](/tugas/tugas2/grafik_experiment/output1.png)
+![Output1](/tugas/output1.png)
 
-![Output2](/tugas/tugas2/grafik_experiment/output2.png)
+![Output2](/tugas/output2.png)
 
 Grafik pertama memperlihatkan durasi penyimpanan standar yang tidak disesuaikan, yang menggambarkan perbedaan yang signifikan antara penyimpanan ke file .png dan LMDB atau HDF5.
 
@@ -652,9 +652,9 @@ for cutoff in cutoffs:
 
 berikut hasil experiment yang dilakukan
 
-![Output3](/tugas/tugas2/grafik_experiment/output3.png)
+![Output3](/tugas/output3.png)
 
-![Output4](/tugas/tugas2/grafik_experiment/output4.png)
+![Output4](/tugas/output4.png)
 
 | Method | No. images | Time usage            |
 |--------|------------|-----------------------|
@@ -684,7 +684,7 @@ Secara keseluruhan, pemilihan metode penyimpanan terbaik tergantung pada jumlah 
 
 ### Jumlah Memori yang terpakai untuk masing-masing metode
 
-![Output5](/tugas/tugas2/grafik_experiment/output5.png)
+![Output5](/tugas/output5.png)
 
 PNG: Metode ini tidak disarankan untuk penyimpanan gambar dalam jumlah besar karena waktu penyimpanannya yang meningkat secara signifikan. Namun, waktu pembacaannya tetap efisien.
 LMDB dan HDF5: Kedua metode ini sangat efisien untuk penyimpanan dan pembacaan gambar dalam jumlah besar. Mereka menunjukkan kinerja yang jauh lebih baik daripada PNG dalam hal waktu penyimpanan, sementara tetap mempertahankan waktu pembacaan yang rendah dan konstan.
